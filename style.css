@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fundo-img: #f7fafc;
+
+    --cor-texto: #1a202c;
+
+    --cor-btn-entrar: #04c45c;
+    --cor-btn-google: #1a202c;
+    --cor-txt-btn: #fff;
+    --cor-link: #2b6cb0;
+
+    --font-titulo: 'Merriweather', serif;
+    --font-texto: 'Lato', sans-serif;
+}
+
+.border{
+    border: 1px solid red;
+}
+
+.border1{
+    border: 1px solid blue;
+}
+
+.border2{
+    border: 1px solid rgb(255, 79, 108);
+}
+
+body{
+    color: var(--cor-texto);
+    font-family: var(--font-texto);
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+h1, h2{
+    font-family: var(--font-titulo);
+}
+
+a{
+    color: var(--cor-link);
+    text-decoration: none;
+}
+
+.img{
+    width: 50%;
+    background: var(--fundo-img);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img{
+    width: 50%;
+}
+
+.login{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulos{
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+h1{
+    font-size: 16px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+form{
+    height: 60%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+label{
+    margin-bottom: 2%;
+}
+
+input{
+    border: 1px solid #E8E8E8;
+    height: 3.5vh;
+    
+}
+
+input[type="email"]{
+    margin-bottom: 10%;
+    padding: 2%;
+}
+
+input[type="password"]{
+    margin-bottom: 5%;
+    padding: 2%;
+}
+
+input:focus{
+    border: 1px solid #E8E8E8;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.lembrar-esqueceu{
+    font-size: 0.7em;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lembra{
+    width: 50%;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+
+form input[type="radio"]{
+    margin: 0;
+}
+
+.button-cont{
+    height: 10vh; 
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.button-cont input, .google{
+    cursor: pointer;
+    border-radius: 5px;
+    color: var(--cor-txt-btn);
+}
+
+.button-cont input[value="Entrar"]{
+    background: var(--cor-btn-entrar);  
+}
+
+.google{
+    background: var(--cor-btn-google);  
+    display: flex;
+    height: 3.5vh;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+@media (max-width:1080px){
+    .img{
+        display: none;
+    }
+
+    .login{
+        background: var(--fundo-img);
+        width: 100%;
+    }
+
+    input{
+        height: 10%;
+    }
+
+    .conteudo{
+        width: 95%;
+    }
+
+    .button-cont{
+        border: 1px solid red;
+        height: 50%;
+        gap: 10%;
+    }
+
+    .button-cont input, .google{
+        height: 30%;
+    }
+}
+
+
