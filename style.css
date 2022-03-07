@@ -193,7 +193,6 @@ form input[type="radio"]{
     }
 
     .button-cont{
-        border: 1px solid red;
         height: 50%;
         gap: 10%;
     }
