@@ -171,6 +171,10 @@ input:focus{
 }
 
 @media (max-width:1080px){
+    .login{
+        width: 100vh;
+    }
+    
     .img{
         display: none;
     }
