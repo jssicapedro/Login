@@ -173,6 +173,7 @@ input:focus{
 @media (max-width:1080px){
     .login{
         width: 100vh;
+        margin: 0;
     }
     
     .img{
