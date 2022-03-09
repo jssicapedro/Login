@@ -173,7 +173,7 @@ input:focus{
 @media (max-width:1080px){
     .login{
         width: 100vh;
-        justify-conten: normal;
+        justify-conten: flex-start;
     }
     
     .img{
