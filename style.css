@@ -176,6 +176,10 @@ input:focus{
         justify-content: space-around;
     }
     
+    .conteudo{
+        height:50%;
+    }
+    
     .img{
         display: none;
     }
@@ -190,7 +194,7 @@ input:focus{
     }
 
     .button-cont{
-        height: 50%;
+        height: 80px;
         gap: 10%;
     }
 }
