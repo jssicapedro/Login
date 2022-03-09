@@ -143,7 +143,7 @@ input:focus{
 }
 
 .button-cont{
-    height: 10vh; 
+    height: 14vh; 
     display: flex;
     flex-direction: column;
     gap: 2%;
@@ -155,7 +155,7 @@ input:focus{
     cursor: pointer;
     border-radius: 5px;
     color: var(--cor-txt-btn);
-    height: 30px;
+    height: 36px;
 }
 
 .button-cont input[value="Entrar"]{
@@ -165,7 +165,6 @@ input:focus{
 .google{
     background: var(--cor-btn-google);  
     display: flex;
-    height: 3.5vh;
     align-items: center;
     justify-content: center;
     gap: 5%;
